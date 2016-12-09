@@ -42,6 +42,6 @@
             android:id="@+id/walkabouts"
             style="@style/CategoryStyle"
             android:background="@color/category_walkabouts"
-            android:text="@string/category_walkabouts" />
+            android:text="@string/category_walkabout" />
     </LinearLayout>
 </ScrollView>
