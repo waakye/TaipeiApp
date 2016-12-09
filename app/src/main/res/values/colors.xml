@@ -8,5 +8,6 @@
     <color name="category_monuments">#494B03</color>
     <color name="category_night_markets">#700E35</color>
     <color name="category_temples">#61A9E4</color>
-    <color name="category_walkabouts">#E49C61</color>
+    <color name="category_walkabouts">#FFE1805C</color>
+    <color name="background">#FFF5BD05</color>
 </resources>
