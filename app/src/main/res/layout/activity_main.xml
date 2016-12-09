@@ -11,40 +11,36 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.lesterlie.taipeiapp.MainActivity">
 
         <TextView
             android:id="@+id/museums"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/category_museums"
             android:text="@string/category_museums" />
 
         <TextView
             android:id="@+id/monuments"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/category_monuments"
             android:text="@string/category_monuments" />
 
         <TextView
             android:id="@+id/night_markets"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/category_night_markets"
             android:text="@string/category_night_markets" />
-        
+
         <TextView
             android:id="@+id/temples"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/category_temples"
             android:text="@string/category_temples" />
 
         <TextView
             android:id="@+id/walkabouts"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@color/category_walkabouts"
             android:text="@string/category_walkabouts" />
     </LinearLayout>
 </ScrollView>
