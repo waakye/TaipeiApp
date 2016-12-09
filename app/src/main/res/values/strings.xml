@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TaipeiApp</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_monuments">National Monuments</string>
+    <string name="category_night_markets">Night Markets</string>
+    <string name="category_temples">Buddhist Temples</string>
+    <string name="category_walkabout">Walking About</string>
 </resources>
