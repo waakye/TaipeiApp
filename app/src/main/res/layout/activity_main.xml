@@ -18,8 +18,33 @@
         tools:context="com.example.lesterlie.taipeiapp.MainActivity">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:id="@+id/museums"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:text="@string/category_museums" />
+
+        <TextView
+            android:id="@+id/monuments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_monuments" />
+
+        <TextView
+            android:id="@+id/night_markets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_night_markets" />
+        
+        <TextView
+            android:id="@+id/temples"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_temples" />
+
+        <TextView
+            android:id="@+id/walkabouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category_walkabouts" />
     </LinearLayout>
 </ScrollView>
