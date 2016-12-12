@@ -14,7 +14,7 @@ public class MuseumActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_museum);
+        setContentView(R.layout.activity_attraction);
 
         // Create an arrayList of museums
         ArrayList<String> museums = new ArrayList<String>();
@@ -24,14 +24,6 @@ public class MuseumActivity extends AppCompatActivity {
         museums.add("National Taiwan Museum");
         museums.add("Museum of Contemporary Art");
         museums.add("Shung Ye Museum of Formosan Aborigines");
-
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
-
-        for(int index = 0; index< museums.size(); index++) {
-            TextView wordView =  new TextView(this);
-            wordView.setText(museums.get(index));
-            rootView.addView(wordView);
-        }
 
         // Create an {@link ArrayAdapter}, whose data source is a activity_attraction of Strings. The adapter
         // knows how to create layouts for each item in the activity_attraction, using the simple_list_item_1.xml
