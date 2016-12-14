@@ -8,7 +8,7 @@
     android:padding="16dp">
 
     <TextView
-        android:id="@+id/attraction_Engish_name"
+        android:id="@+id/attraction_english_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="National Palace Museum"/>
@@ -18,5 +18,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Gugong Bowuguan"/>
+
+    <TextView
+        android:id="@+id/attraction_admission_fees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Admission Fees"/>
+
+    <TextView
+        android:id="@+id/attraction_operating_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Operating Hours"/>
+
+    <TextView
+        android:id="@+id/attraction_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Website"/>
+
+    <TextView
+        android:id="@+id/attraction_english_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="English Address"/>
+
+    <TextView
+        android:id="@+id/attraction_pinyin_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Pinyin Address"/>
+
+    <TextView
+        android:id="@+id/attraction_english_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Taiwan's best museum"/>
 
 </LinearLayout>
