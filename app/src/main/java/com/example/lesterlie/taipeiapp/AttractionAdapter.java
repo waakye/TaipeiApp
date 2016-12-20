@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * AttractionAdapter 
+ * AttractionAdapter
  * Created by lesterlie on 12/14/16.
  */
 
