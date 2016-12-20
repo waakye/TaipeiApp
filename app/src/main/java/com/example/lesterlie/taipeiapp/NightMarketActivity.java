@@ -11,7 +11,7 @@ public class NightMarketActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_night_market);
+        setContentView(R.layout.activity_attraction);
 
         // Create an arraylist of night markets
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
