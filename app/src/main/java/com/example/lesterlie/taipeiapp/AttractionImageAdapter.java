@@ -51,68 +51,68 @@ public class AttractionImageAdapter extends ArrayAdapter<Attraction> {
         // Get the {@link Attraction} object located at this position in the list
         Attraction currentAttraction = getItem(position);
 
-        // Find the TextView in the list_item.xml layout with the ID attractionEnglishName
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionEnglishName
         TextView englishNameTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_english_name);
         // Get the attraction English name from the current attraction object and set this text on
         // the englishNameTextView
         englishNameTextView.setText(currentAttraction.getEnglishName());
 
-        // Find the TextView in the list_item.xml layout with the ID attractionPinyinName
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionPinyinName
         TextView pinyinNameTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_pinyin_name);
         // Get the attraction Pinyin name from the current attraction object and set this text on
         // the pinyinNameTextView
         pinyinNameTextView.setText(currentAttraction.getPinyinName());
 
-        // Find the TextView in the list_item.xml layout with the ID admissionFees
+        // Find the TextView in the list_item_with_image.xml layout with the ID admissionFees
         TextView admissionFeesTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_admission_fees);
         // Get the attraction admission fees from the current attraction object and set this text on
         // the admissionFeesTextView
         admissionFeesTextView.setText(currentAttraction.getAdmissionFees());
 
-        // Find the TextView in the list_item.xml layout with the ID operatingHours
+        // Find the TextView in the list_item_with_image.xml layout with the ID operatingHours
         TextView operatingHoursTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_operating_hours);
         // Get the attraction operating hours from the current attraction object and set this text
         // on the operatingHoursTextView
         operatingHoursTextView.setText(currentAttraction.getOperatingHours());
 
-        // Find the TextView in the list_item.xml layout with the ID attractionWebsite
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionWebsite
         TextView attractionWebsiteTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_website);
         // Get the attraction operating hours from the current attraction object and set this text
         // on the attractionWebsiteTextView
         attractionWebsiteTextView.setText(currentAttraction.getAttractionWebsite());
 
-        // Find the TextView in the list_item.xml layout with the ID attractionEnglishAddress
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionEnglishAddress
         TextView englishAddressTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_english_address);
         // Get the attraction English address from the current attraction object and set this text
         // on the englishAddressTextView
         englishAddressTextView.setText(currentAttraction.getEnglishAddress());
 
-        // Find the TextView in the list_item.xml layout with the ID attractionPinyinName
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionPinyinName
         TextView pinyinAddressTextView =
                 (TextView)listItemView.findViewById(R.id.attraction_pinyin_address);
         // Get the attraction Pinyin address from the current attraction object and set this text on
         // the pinyinAddressTextView
         pinyinAddressTextView.setText(currentAttraction.getPinyinAddress());
 
-        // Find the TextView in the list_item.xml layout with the ID attractionEnglishDescription
+        // Find the TextView in the list_item_with_image.xml layout with the ID attractionEnglishDescription
         TextView descriptionTextView =
                 (TextView) listItemView.findViewById(R.id.attraction_english_description);
         // Get the attraction English description from teh current attraction object and set this
         // text on the description TextView
         descriptionTextView.setText(currentAttraction.getEnglishDescription());
 
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
+        // Find the ImageView in the list_item_with_image.xml layout with the ID list_item_icon
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
         // Get the image resource ID from the current AndroidFlavor object and
         // set the image to iconView
         iconView.setImageResource(currentAttraction.getImageResourceId());
-        
+
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView
         return listItemView;
