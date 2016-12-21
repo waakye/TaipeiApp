@@ -10,10 +10,12 @@
     <ImageView
         android:id="@+id/list_item_icon"
         android:layout_width="50dp"
-        android:layout_height="50dp" />
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"/>
 
     <TextView
         android:id="@+id/attraction_english_name"
+        style="@style/HeaderStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="National Palace Museum"/>
@@ -22,7 +24,8 @@
         android:id="@+id/attraction_pinyin_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Gugong Bowuguan"/>
+        tools:text="Gugong Bowuguan"
+        android:paddingBottom="16dp"/>
 
     <TextView
         android:id="@+id/attraction_admission_fees"
@@ -40,7 +43,8 @@
         android:id="@+id/attraction_website"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Website"/>
+        tools:text="Website"
+        android:paddingBottom="16dp"/>
 
     <TextView
         android:id="@+id/attraction_english_address"
@@ -52,7 +56,8 @@
         android:id="@+id/attraction_pinyin_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="Pinyin Address"/>
+        tools:text="Pinyin Address"
+        android:paddingBottom="16dp"/>
 
     <TextView
         android:id="@+id/attraction_english_description"
