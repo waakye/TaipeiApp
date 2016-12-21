@@ -2,10 +2,7 @@ package com.example.lesterlie.taipeiapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -29,7 +26,8 @@ public class MuseumActivity extends AppCompatActivity {
                 "Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Er Shi Yi Hao",
                 "A permanent collection of nearly 700,000 pieces of ancient Chinese imperial " +
                         "artifacts and artworks, making it one of the largest of its type in the " +
-                        "world. "));
+                        "world. ",
+                R.drawable.nationalpalacemuseum));
         attractions.add(new Attraction(
                 "Taipei Fine Arts Museum",
                 "Taibei Shili Meishuguan",
@@ -39,7 +37,8 @@ public class MuseumActivity extends AppCompatActivity {
                 "http://www.tfam.museum/",
                 "No. 181, Section 3, Zhongshan N Rd, Zhongshan District",
                 "Zhongshan Qu, Zhongshan Bei Lu, San Duan, Yibai BaShi Yi Hao",
-                "The first museum in Taiwan built for contemporary art exhibitions. "));
+                "The first museum in Taiwan built for contemporary art exhibitions. ",
+                R.drawable.taipeifineartsmuseum));
         attractions.add(new Attraction(
                 "National Museum of History",
                 "Lishi Bowuguan",
@@ -48,7 +47,8 @@ public class MuseumActivity extends AppCompatActivity {
                 "http://www.nmh.gov.tw/",
                 "No. 49, Nanhai Rd, Zhongzheng District",
                 "Zhongzheng qu, Nanhai Lu, Sishi Jiu Hao",
-                "Exhibits Taiwanese historical items."));
+                "Exhibits Taiwanese historical items.",
+                R.drawable.nationalmuseumofhistory));
         attractions.add(new Attraction(
                 "National Taiwan Museum",
                 "Guoli Taiwan Bowuguan",
@@ -58,7 +58,8 @@ public class MuseumActivity extends AppCompatActivity {
                 "No. 2, Xiangyang Rd, Zhongzheng District",
                 "Zhongzheng Qu, Xiangyang Lu, Er Hao",
                 "The collection and research continue to focus on anthropology, earth sciences, " +
-                        "zoology, and botany that are relevant to Taiwan. "));
+                        "zoology, and botany that are relevant to Taiwan. ",
+                R.drawable.nationalmuseumoftaiwan));
         attractions.add(new Attraction(
                 "Museum of Contemporary Art",
                 "Taibei Dangdai Yishuguan",
@@ -67,7 +68,8 @@ public class MuseumActivity extends AppCompatActivity {
                 "http://www.mocataipei.org.tw/",
                 "No.39, Chang'an W. Rd., Datong District",
                 "Datong Qu, Chang An Xilu, Sanshi Jiu Hao",
-                "A museum displaying contemporary Taiwan art."));
+                "A museum displaying contemporary Taiwan art.",
+                R.drawable.mocataipei));
         attractions.add(new Attraction(
                 "Shung Ye Museum of Formosan Aborigines",
                 "Shunyi Yaiwan Yuan Zhumin Bowuguan",
@@ -77,15 +79,16 @@ public class MuseumActivity extends AppCompatActivity {
                 "No. 282, Sec.2 Zhishan Rd., Shihlin District",
                 "Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Bashi Er Hao",
                 "A museum dedicated to displaying the cultures and histories of the " +
-                        "Taiwanese aborigines. "));
+                        "Taiwanese aborigines.",
+                R.drawable.shungye));
 
         // Create an {@link ArrayAdapter}, whose data source is a activity_attraction of Strings. The adapter
         // knows how to create layouts for each item in the activity_attraction, using the simple_list_item_1.xml
         // layout resource defined in the Android framework.
         // This activity_attraction item layout contains a single {@link TextView}, which the adapter will set
         // to display a single word.
-        AttractionAdapter adapter =
-                new AttractionAdapter(this, attractions);
+        AttractionImageAdapter adapter =
+                new AttractionImageAdapter(this, attractions);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.  There
         // should be a {@link ListView} with the view ID called activity_attraction, which is declared in the
