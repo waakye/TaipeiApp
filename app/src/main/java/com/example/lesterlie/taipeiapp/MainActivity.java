@@ -29,20 +29,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the monuments category
-        TextView monuments = (TextView)findViewById(R.id.monuments);
-
-        monuments.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //Create a new intent to open the {@link MonumentActivity}
-                Intent monumentsIntent = new Intent(MainActivity.this, MonumentActivity.class);
-
-                // Start the new activity
-                startActivity(monumentsIntent);
-            }
-        });
-
 
         // Find the View that shows the night markets category
         TextView nightMarkets = (TextView)findViewById(R.id.night_markets);

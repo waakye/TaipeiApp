@@ -21,12 +21,6 @@
             android:text="@string/category_museums" />
 
         <TextView
-            android:id="@+id/monuments"
-            style="@style/CategoryStyle"
-            android:background="@color/category_monuments"
-            android:text="@string/category_monuments" />
-
-        <TextView
             android:id="@+id/night_markets"
             style="@style/CategoryStyle"
             android:background="@color/category_night_markets"
