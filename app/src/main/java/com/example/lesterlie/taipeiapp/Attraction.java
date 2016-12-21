@@ -33,6 +33,9 @@ public class Attraction {
     /** Website of the attraction */
     private String mAttractionWebsite;
 
+    /** Drawable resource ID */
+    private int mImageResourceId;
+
     /**
      * Create a new Attraction object
      * @param englishName is the name of the attraction in English
@@ -58,6 +61,37 @@ public class Attraction {
         mPinyinAddress = pinyinAddress;
 
         mEnglishDescription = englishDescription;
+
+    }
+
+    /**
+     * Create a new Attraction object with an image
+     * @param englishName is the name of the attraction in English
+     * @param pinyinName is the name of the attraction using pinyin
+     * @param admissionFees is the cost of entering the attraction
+     * @param operatingHours is the operating hours for the attraction
+     * @param attractionWebsite is the attraction's website
+     * @param englishAddress is the address of the attraction in English
+     * @param pinyinAddress is the address of the attraction using pinyin
+     * @param englishDescription is the description of the attraction in English
+     * @param imageResourceId is the image associated with the attraction
+     */
+    public Attraction(String englishName, String pinyinName, String admissionFees,
+                      String operatingHours, String attractionWebsite, String englishAddress,
+                      String pinyinAddress, String englishDescription, int imageResourceId) {
+        mEnglishName = englishName;
+        mPinyinName = pinyinName;
+
+        mAdmissionFees = admissionFees;
+        mOperatingHours = operatingHours;
+        mAttractionWebsite = attractionWebsite;
+
+        mEnglishAddress = englishAddress;
+        mPinyinAddress = pinyinAddress;
+
+        mEnglishDescription = englishDescription;
+
+        mImageResourceId = imageResourceId;
 
     }
 
@@ -118,6 +152,13 @@ public class Attraction {
      */
     public String getAttractionWebsite() {
         return mAttractionWebsite;
+    }
+
+    /**
+     * Get the image resource ID
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
     }
 
 }

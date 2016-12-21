@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -15,14 +16,14 @@ import java.util.ArrayList;
  * Created by lesterlie on 12/14/16.
  */
 
-public class AttractionAdapter extends ArrayAdapter<Attraction> {
+public class AttractionImageAdapter extends ArrayAdapter<Attraction> {
 
     /**
      * This is Udacity's custom constructor (it doesn't mirror a superclass constructor).
      * The context is used to inflate the layout file, and the list is the data we ant to
      * populate into the lists
      */
-    public AttractionAdapter(Activity context, ArrayList<Attraction> attractions) {
+    public AttractionImageAdapter(Activity context, ArrayList<Attraction> attractions) {
         // Here we initialize the ArrayAdapter's internal storage for the context and the list.
         // the second argument is used when the ArrayAdapter is populating a single TextView
         // Because this is a custom adapter for two TextViews, the adapter is not going to use
@@ -44,7 +45,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         View listItemView = convertView;
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.list_item_with_image, parent, false);
         }
 
         // Get the {@link Attraction} object located at this position in the list
@@ -106,7 +107,12 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         // text on the description TextView
         descriptionTextView.setText(currentAttraction.getEnglishDescription());
 
-
+        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
+        ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
+        // Get the image resource ID from the current AndroidFlavor object and
+        // set the image to iconView
+        iconView.setImageResource(currentAttraction.getImageResourceId());
+        
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView
         return listItemView;
