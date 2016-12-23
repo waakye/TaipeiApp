@@ -16,46 +16,41 @@ public class TempleActivity extends AppCompatActivity {
         // Create an arraylist of temples
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
         attractions.add(new Attraction(
-                "Dalongdong Baoan Temple",
-                "Dalongdong Baoan Gong",
-                "Free",
-                "Hours: 7:00am to 10:00pm daily",
-                "www.baoan.org.tw/english",
-                "No. 61 Hami Street, Datong District",
-                "Datong Qu, Hami Jie, Liushi Yi Hao",
-                "UNESCO World Heritage site founded in 1760"
-        ));
+                getString(R.string.temple_1_english_name),
+                getString(R.string.temple_1_pinyin_name),
+                getString(R.string.temple_1_admission_fee),
+                getString(R.string.temple_1_operating_hours),
+                getString(R.string.temple_1_website),
+                getString(R.string.temple_1_english_address),
+                getString(R.string.temple_1_pinyin_address),
+                getString(R.string.temple_1_description)));
         attractions.add(new Attraction(
-                "Longshan Temple",
-                "Longshan Si",
-                "Free",
-                "Hours: 6am to 10pm daily",
-                "www.lungshan.org.tw",
-                "211 Guangzhou Street, Wanhua District",
-                "Wanhua Qu, Guangzhou Jie, Liangbai Shiyi Hao",
-                "One of the city's top religious sites and a prime venue for exploring both " +
-                        "Taiwan's vibrant folk faith and its unique temple arts and architecture"
-        ));
+                getString(R.string.temple_2_english_name),
+                getString(R.string.temple_2_pinyin_name),
+                getString(R.string.temple_2_admission_fee),
+                getString(R.string.temple_2_operating_hours),
+                getString(R.string.temple_2_website),
+                getString(R.string.temple_2_english_address),
+                getString(R.string.temple_2_pinyin_address),
+                getString(R.string.temple_2_description)));
         attractions.add(new Attraction(
-                "Xingtian Temple",
-                "Xingtian Kong",
-                "Free",
-                "Hours: 5am to 11pm daily",
-                "No website",
-                "109 Mingquan East Road, Section 2, Zhongshan District",
-                "Zhongshan Qu, Minquan Dong Lu, Er Duan, Yiling Jiu Hao",
-                "One of the city's top centers of folk worship"
-        ));
+                getString(R.string.temple_3_english_name),
+                getString(R.string.temple_3_pinyin_name),
+                getString(R.string.temple_3_admission_fee),
+                getString(R.string.temple_3_operating_hours),
+                getString(R.string.temple_3_website),
+                getString(R.string.temple_3_english_address),
+                getString(R.string.temple_3_pinyin_address),
+                getString(R.string.temple_3_description)));
         attractions.add(new Attraction(
-                "Shandao Temple",
-                "Shandao Si",
-                "Free",
-                "Hours: 6:30am to 10:30pm daily",
-                "www.shandaotemple.org.tw",
-                "No. 23, Section 1, Zhongxiao E Rd, Zhongzheng District",
-                "Zhongzheng Qu, Zhongxiao Dong Lu, Yi Duan, Ershi San Hao",
-                "Unusually modern style temple"
-        ));
+                getString(R.string.temple_4_english_name),
+                getString(R.string.temple_4_pinyin_name),
+                getString(R.string.temple_4_admission_fee),
+                getString(R.string.temple_4_operating_hours),
+                getString(R.string.temple_4_website),
+                getString(R.string.temple_4_english_address),
+                getString(R.string.temple_4_pinyin_address),
+                getString(R.string.temple_4_description)));
 
         // Create an {@link ArrayAdapter}, whose data source is a activity_attraction of Strings. The adapter
         // knows how to create layouts for each item in the activity_attraction, using the simple_list_item_1.xml
