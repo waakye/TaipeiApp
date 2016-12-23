@@ -5,4 +5,223 @@
     <string name="category_night_markets">Night Markets</string>
     <string name="category_temples">Buddhist Temples</string>
     <string name="category_walkabout">Walking About</string>
+
+    <!--Museums -->
+    <!--Museum 1: National Palace Museum -->
+    <string name="museum_1_english_name">National Palace Museum</string>
+    <string name="museum_1_pinyin_name">Gugong Bowuguan</string>
+    <string name="museum_1_admission_fee">Regular admission: NT250</string>
+    <string name="museum_1_operating_hours">Open daily from 08:30 to 18:30 all year round.
+        Extension of opening hours at night: 18:30 - 21:00 on Fridays and Saturdays.</string>
+    <string name="museum_1_website">www.npm.gov.tw</string>
+    <string name="museum_1_english_address">No. 221, Section 2, Zhishan Rd, Shilin District</string>
+    <string name="museum_1_pinyin_address">Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Er Shi Yi
+        Hao</string>
+    <string name="museum_1_description">A permanent collection of nearly 700,000 pieces of ancient
+        Chinese imperial artifacts and artworks, making it one of the largest of its type in the
+        world.</string>
+
+    <!-- Taipei Fine Arts Museum -->
+    <string name="museum_2_english_name">Taipei Fine Arts Museum</string>
+    <string name="museum_2_pinyin_name">Taibei Shili Meishuguan</string>
+    <string name="museum_2_admission_fee">Regular admission: NT30</string>
+    <string name="museum_2_operating_hours">Tuesdays through Friday and Sunday open 9:30 to 17:30;
+        open until 20:30 on Saturdays; closed on Mondays</string>
+    <string name="museum_2_website">http://www.tfam.museum/</string>
+    <string name="museum_2_english_address">No. 181, Section 3, Zhongshan N Rd, Zhongshan
+        District</string>
+    <string name="museum_2_pinyin_address">Zhongshan Qu, Zhongshan Bei Lu, San Duan, Yibai BaShi Yi
+        Hao</string>
+    <string name="museum_2_description">The first museum in Taiwan built for contemporary art
+        exhibitions.</string>
+
+    <!-- National Museum of History -->
+    <string name="museum_3_english_name">National Museum of History</string>
+    <string name="museum_3_pinyin_name">Lishi Bowuguan</string>
+    <string name="museum_3_admission_fee">Regular admission: NT30</string>
+    <string name="museum_3_operating_hours">Tuesdays through Sunday open 10:00 to 18:00"</string>
+    <string name="museum_3_website">http://www.nmh.gov.tw/</string>
+    <string name="museum_3_english_address">No. 49, Nanhai Rd, Zhongzheng District</string>
+    <string name="museum_3_pinyin_address">Zhongzheng qu, Nanhai Lu, Sishi Jiu Hao</string>
+    <string name="museum_3_description">Exhibits Taiwanese historical items.</string>
+
+    <!-- National Taiwan Museum -->
+    <string name="museum_4_english_name">National Taiwan Museum</string>
+    <string name="museum_4_pinyin_name">Guoli Taiwan Bowuguan</string>
+    <string name="museum_4_admission_fee">Regular admission: NT30</string>
+    <string name="museum_4_operating_hours">Tuesdays through Sunday open 09:30 to 17:00</string>
+    <string name="museum_4_website">www2.ntm.gov.tw</string>
+    <string name="museum_4_english_address">No. 2, Xiangyang Rd, Zhongzheng District</string>
+    <string name="museum_4_pinyin_address">Zhongzheng Qu, Xiangyang Lu, Er Hao</string>
+    <string name="museum_4_description">The collection and research continue to focus on
+        anthropology, earth sciences, zoology, and botany that are relevant to Taiwan.</string>
+
+    <!-- MOCA Taipei -->
+    <string name="museum_5_english_name">Museum of Contemporary Art</string>
+    <string name="museum_5_pinyin_name">Taibei Dangdai Yishuguan</string>
+    <string name="museum_5_admission_fee">Regular admission: NT50</string>
+    <string name="museum_5_operating_hours">Tuesdays through Sunday open 10:00 to 18:00</string>
+    <string name="museum_5_website">http://www.mocataipei.org.tw/</string>
+    <string name="museum_5_english_address">No.39, Chang\'an W. Rd., Datong District</string>
+    <string name="museum_5_pinyin_address">Datong Qu, Chang An Xilu, Sanshi Jiu Hao</string>
+    <string name="museum_5_description">A museum displaying contemporary Taiwan art.</string>
+
+    <!-- Shung Ye Museum -->
+    <string name="museum_6_english_name">Shung Ye Museum of Formosan Aborigines</string>
+    <string name="museum_6_pinyin_name">Shunyi Yaiwan Yuan Zhumin Bowuguan</string>
+    <string name="museum_6_admission_fee">Regular admission: NT150</string>
+    <string name="museum_6_operating_hours">Tuesdays through Sunday open 09:00 to 17:00</string>
+    <string name="museum_6_website">http://www.museum.org.tw/symm_en/index.htm</string>
+    <string name="museum_6_english_address">No. 282, Sec.2 Zhishan Rd., Shihlin District</string>
+    <string name="museum_6_pinyin_address">Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Bashi Er
+        Hao</string>
+    <string name="museum_6_description">A museum dedicated to displaying the cultures and histories
+        of the Taiwanese aborigines.</string>
+
+    <!-- Night Markets -->
+    <!-- Shilin -->
+    <string name="night_market_1_english_name">Shilin Night Market</string>
+    <string name="night_market_1_pinyin_name">Shilin Yeshi</string>
+    <string name="night_market_1_admission_fee">Admission: Free</string>
+    <string name="night_market_1_operating_hours">Hours: 4:30pm to 12:00am daily</string>
+    <string name="night_market_1_website">www.shilin-night-market.com</string>
+    <string name="night_market_1_english_address">Lane 101, Wenlin Road, Shilin District</string>
+    <string name="night_market_1_pinyin_address">Shilin Qu, Wenlin Lu, 101 Xiang</string>
+    <string name="night_market_1_description">One of the most popular night markets</string>
+
+    <!-- Raohe -->
+    <string name="night_market_2_english_name">Raohe Night Market</string>
+    <string name="night_market_2_pinyin_name">Raohe Jie Guangong Yeshi</string>
+    <string name="night_market_2_admission_fee">Admission: Free</string>
+    <string name="night_market_2_operating_hours">Hours: 5:00pm to 12:00am daily</string>
+    <string name="night_market_2_website">www.raohestreet.com.tw</string>
+    <string name="night_market_2_english_address">Raohe Street, Songshan District</string>
+    <string name="night_market_2_pinyin_address">Songshan Qu, Raohe Lu</string>
+    <string name="night_market_2_description">One of the oldest night markets</string>
+
+    <!-- Shida -->
+    <string name="night_market_3_english_name">Shida Night Market</string>
+    <string name="night_market_3_pinyin_name">Shida Yeshi</string>
+    <string name="night_market_3_admission_fee">Admission: Free</string>
+    <string name="night_market_3_operating_hours">Hours: 12:00pm to 12:00am daily</string>
+    <string name="night_market_3_website">No website</string>
+    <string name="night_market_3_english_address">Lane 39, Shida Road, Da\'an District</string>
+    <string name="night_market_3_pinyin_address">Da\'an Qu, Shida Lu, Sanshi Jiu Xiang</string>
+    <string name="night_market_3_description">One of the liveliest night markets</string>
+
+    <!-- Linjiang -->
+    <string name="night_market_4_english_name">Linjiang Night Market</string>
+    <string name="night_market_4_pinyin_name">Linjiang Jie Guangong Yeshi</string>
+    <string name="night_market_4_admission_fee">Admission: Free</string>
+    <string name="night_market_4_operating_hours">Hours: 5:00pm to 1:30am daily</string>
+    <string name="night_market_4_website">No website</string>
+    <string name="night_market_4_english_address">Linjiang Street, Da\'an District</string>
+    <string name="night_market_4_pinyin_address">Da\'an Qu, Linjiang Jie</string>
+    <string name="night_market_4_description">One of the liveliest night markets</string>
+
+    <!-- Temples -->
+    <!-- Baoan Temple -->
+    <string name="temple_1_english_name">Dalongdong Baoan Temple</string>
+    <string name="temple_1_pinyin_name">Dalongdong Baoan Gong</string>
+    <string name="temple_1_admission_fee">Free</string>
+    <string name="temple_1_operating_hours">Hours: 7:00am to 10:00pm daily</string>
+    <string name="temple_1_website">www.baoan.org.tw/english</string>
+    <string name="temple_1_english_address">No. 61 Hami Street, Datong District</string>
+    <string name="temple_1_pinyin_address">Datong Qu, Hami Jie, Liushi Yi Hao</string>
+    <string name="temple_1_description">UNESCO World Heritage site founded in 1760</string>
+
+    <!-- Longshan Temple -->
+    <string name="temple_2_english_name">Longshan Temple</string>
+    <string name="temple_2_pinyin_name">Longshan Si</string>
+    <string name="temple_2_admission_fee">Free</string>
+    <string name="temple_2_operating_hours">Hours: 6am to 10pm daily</string>
+    <string name="temple_2_website">www.lungshan.org.tw</string>
+    <string name="temple_2_english_address">211 Guangzhou Street, Wanhua District</string>
+    <string name="temple_2_pinyin_address">Wanhua Qu, Guangzhou Jie, Liangbai Shiyi Hao</string>
+    <string name="temple_2_description">One of the city\'s top religious sites and a prime venue for
+        exploring both Taiwan\'s vibrant folk faith and its unique temple arts and
+        architecture</string>
+
+    <!-- Xingtian Temple -->
+    <string name="temple_3_english_name">Xingtian Temple</string>
+    <string name="temple_3_pinyin_name">Xingtian Kong</string>
+    <string name="temple_3_admission_fee">Free</string>
+    <string name="temple_3_operating_hours">Hours: 5am to 11pm daily</string>
+    <string name="temple_3_website">No website</string>
+    <string name="temple_3_english_address">109 Mingquan East Road, Section 2, Zhongshan
+        District</string>
+    <string name="temple_3_pinyin_address">Zhongshan Qu, Minquan Dong Lu, Er Duan, Yiling Jiu
+        Hao</string>
+    <string name="temple_3_description">One of the city\'s top centers of folk worship</string>
+
+    <!-- Shandao Temple -->
+    <string name="temple_4_english_name">Shandao Temple</string>
+    <string name="temple_4_pinyin_name">Shandao Si</string>
+    <string name="temple_4_admission_fee">Free</string>
+    <string name="temple_4_operating_hours">Hours: 6:30am to 10:30pm daily</string>
+    <string name="temple_4_website">www.shandaotemple.org.tw</string>
+    <string name="temple_4_english_address">No. 23, Section 1, Zhongxiao E Rd, Zhongzheng
+        District</string>
+    <string name="temple_4_pinyin_address">Zhongzheng Qu, Zhongxiao Dong Lu, Yi Duan, Ershi San
+        Hao</string>
+    <string name="temple_4_description">Unusually modern style temple</string>
+
+    <!-- Walking Areas -->
+    <!-- Huashan 1914 -->
+    <string name="walking_area_1_english_name">Huashan 1914 Creative Park</string>
+    <string name="walking_area_1_pinyin_name">Huashan 1914 Wenhua Chuangyi Chanye Yuanqu</string>
+    <string name="walking_area_1_admission_fee">Free</string>
+    <string name="walking_area_1_operating_hours">Hours: 9:30am to 9:00pm daily</string>
+    <string name="walking_area_1_website">www.huashan1914.com/en/index.html</string>
+    <string name="walking_area_1_english_address">No. 1, Bade Road Sec. 1, Zhong Zheng
+        District</string>
+    <string name="walking_area_1_pinyin_address">Zhongzheng Qu, Yi Duan, Bade Lu, Yi Hao</string>
+    <string name="walking_area_1_description">Huashan 1914 now serves as Taipei’s primary creative
+        arts center and a hosting ground for Taiwan’s most significant cultural activities.</string>
+
+    <!-- Songshan -->
+    <string name="walking_area_2_english_name">Songshan Cultural and Creative Park</string>
+    <string name="walking_area_2_pinyin_name">Songshan Wen Chuang Yuanqu</string>
+    <string name="walking_area_2_admission_fee">Free</string>
+    <string name="walking_area_2_operating_hours">Hours: 9:00am to 6:00pm daily</string>
+    <string name="walking_area_2_website">www.songshanculturalpark.taipei/en/index.aspx</string>
+    <string name="walking_area_2_english_address">No. 133, Guangfu S Rd, Xinyi District</string>
+    <string name="walking_area_2_pinyin_address">Xinyi Qu, Guangfu Nanlu, Yibai Sanshi San
+        Hao</string>
+    <string name="walking_area_2_description">A large public park with exhibition halls, art shows,
+        and conference spaces.</string>
+
+    <!-- 2-28 Memorial Park -->
+    <string name="walking_area_3_english_name">2-28 Peace Memorial Park</string>
+    <string name="walking_area_3_pinyin_name">Er Erba Heping Gongyuan</string>
+    <string name="walking_area_3_admission_fee">Free</string>
+    <string name="walking_area_3_operating_hours">Hours: 6:00am to 12:00am daily</string>
+    <string name="walking_area_3_website">No website</string>
+    <string name="walking_area_3_english_address">3 Ketagalan Boulevard, Zhongzheng District</string>
+    <string name="walking_area_3_pinyin_address">Zhongzheng Qu, Ketagalan Dadao, San Hao</string>
+    <string name="walking_area_3_description">A memorial park for an incident involving an uprising
+        of Taiwanese against the post-WWII Chinese government led by Chiang Kai-shek</string>
+
+    <!-- Taipei Botanical Garden -->
+    <string name="walking_area_4_english_name">Taipei Botanical Garden</string>
+    <string name="walking_area_4_pinyin_name">Taibei Zhiwu Yuan</string>
+    <string name="walking_area_4_admission_fee">Free</string>
+    <string name="walking_area_4_operating_hours">Hours: 5:30am to 10:00pm</string>
+    <string name="walking_area_4_website">http://tpbg.tfri.gov.tw/en/Introduction.php</string>
+    <string name="walking_area_4_english_address">No. 53, Nanhai Rd, Zhongzheng District</string>
+    <string name="walking_area_4_pinyin_address">Zhongzheng Qu, Nanhai Lu, Wushi San Hao</string>
+    <string name="walking_area_4_description">Founded in 1896 as a nursery, it became the first
+        botanical garden in Taiwan</string>
+
+    <!-- Chiang Kai-Shek Memorial -->
+    <string name="walking_area_5_english_name">National Chiang Kai-shek Memorial Hall</string>
+    <string name="walking_area_5_pinyin_name">Zhongzheng Jinian Tang</string>
+    <string name="walking_area_5_admission_fee">Free</string>
+    <string name="walking_area_5_operating_hours">Hours: 9:00am to 6:00pm daily</string>
+    <string name="walking_area_5_website">http://www.cksmh.gov.tw/eng/index.php</string>
+    <string name="walking_area_5_english_address">No.21, Zhongshan S.Rd., Zhongzheng District</string>
+    <string name="walking_area_5_pinyin_address">Zhongzheng Qu, Zhongshan Nanlu, Ershi Yi Hao</string>
+    <string name="walking_area_5_description">A national monument, landmark, and tourist attraction
+        erected in memory of former president, Chiang Kai-shek</string>
+
 </resources>

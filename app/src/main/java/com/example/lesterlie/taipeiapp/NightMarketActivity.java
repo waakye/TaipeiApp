@@ -16,38 +16,41 @@ public class NightMarketActivity extends AppCompatActivity {
         // Create an arraylist of night markets
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
         attractions.add(new Attraction(
-                "Shilin Night Market",
-                "Shilin Yeshi", "Admission: Free",
-                "Hours: 4:30pm to 12:00am daily",
-                "www.shilin-night-market.com",
-                "Lane 101, Wenlin Road, Shilin District",
-                "Shilin Qu, Wenlin Lu, 101 Xiang",
-                "One of the most popular night markets"));
+                getString(R.string.night_market_1_english_name),
+                getString(R.string.night_market_1_pinyin_name),
+                getString(R.string.night_market_1_admission_fee),
+                getString(R.string.night_market_1_operating_hours),
+                getString(R.string.night_market_1_website),
+                getString(R.string.night_market_1_english_address),
+                getString(R.string.night_market_1_pinyin_address),
+                getString(R.string.night_market_1_description)));
         attractions.add(new Attraction(
-                "Raohe Night Market",
-                "Raohe Jie Guangong Yeshi","Admission: Free",
-                "Hours: 5:00pm to 12:00am daily",
-                "www.raohestreet.com.tw",
-                "Raohe Street, Songshan District",
-                "Songshan Qu, Raohe Lu",
-                "One of the oldest night markets"));
+                getString(R.string.night_market_2_english_name),
+                getString(R.string.night_market_2_pinyin_name),
+                getString(R.string.night_market_2_admission_fee),
+                getString(R.string.night_market_2_operating_hours),
+                getString(R.string.night_market_2_website),
+                getString(R.string.night_market_2_english_address),
+                getString(R.string.night_market_2_pinyin_address),
+                getString(R.string.night_market_2_description)));
         attractions.add(new Attraction(
-                "Shida Night Market",
-                "Shida Yeshi", "Admission: Free",
-                "Hours: 12:00pm to 12:00am daily",
-                "No website",
-                "Lane 39, Shida Road, Da'an District",
-                "Da'an Qu, Shida Lu, Sanshi Jiu Xiang",
-                "One of the liveliest night markets"));
+                getString(R.string.night_market_3_english_name),
+                getString(R.string.night_market_3_pinyin_name),
+                getString(R.string.night_market_3_admission_fee),
+                getString(R.string.night_market_3_operating_hours),
+                getString(R.string.night_market_3_website),
+                getString(R.string.night_market_3_english_address),
+                getString(R.string.night_market_3_pinyin_address),
+                getString(R.string.night_market_3_description)));
         attractions.add(new Attraction(
-                "Linjiang Night Market",
-                "Linjiang Jie Guangong Yeshi",
-                "Admission: Free",
-                "Hours: 5:00pm to 1:30am daily",
-                "No website",
-                "Linjiang Street, Da'an District",
-                "Da'an Qu, Linjiang Jie",
-                "One of the liveliest night markets"));
+                getString(R.string.night_market_4_english_name),
+                getString(R.string.night_market_4_pinyin_name),
+                getString(R.string.night_market_4_admission_fee),
+                getString(R.string.night_market_4_operating_hours),
+                getString(R.string.night_market_4_website),
+                getString(R.string.night_market_4_english_address),
+                getString(R.string.night_market_4_pinyin_address),
+                getString(R.string.night_market_4_description)));
 
         // Create an {@link ArrayAdapter}, whose data source is a activity_attraction of Strings. The adapter
         // knows how to create layouts for each item in the activity_attraction, using the simple_list_item_1.xml

@@ -16,70 +16,64 @@ public class MuseumActivity extends AppCompatActivity {
         // Create an arrayList of museums
         ArrayList<Attraction> attractions = new ArrayList<Attraction>();
         attractions.add(new Attraction(
-                "National Palace Museum",
-                "Gugong Bowuguan",
-                "Regular admission: NT250",
-                "Open daily from 08:30 to 18:30 all year round.\n" +
-                        "Extension of opening hours at night: 18:30 - 21:00 on Fridays and Saturdays.",
-                "www.npm.gov.tw",
-                "No. 221, Section 2, Zhishan Rd, Shilin District",
-                "Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Er Shi Yi Hao",
-                "A permanent collection of nearly 700,000 pieces of ancient Chinese imperial " +
-                        "artifacts and artworks, making it one of the largest of its type in the " +
-                        "world. ",
+                getString(R.string.museum_1_english_name),
+                getString(R.string.museum_1_pinyin_name),
+                getString(R.string.museum_1_admission_fee),
+                getString(R.string.museum_1_operating_hours),
+                getString(R.string.museum_1_website),
+                getString(R.string.museum_1_english_address),
+                getString(R.string.museum_1_pinyin_address),
+                getString(R.string.museum_1_description),
                 R.drawable.nationalpalacemuseum));
         attractions.add(new Attraction(
-                "Taipei Fine Arts Museum",
-                "Taibei Shili Meishuguan",
-                "Regular admission: NT30",
-                "Tuesdays through Friday and Sunday open 9:30 to 17:30; " +
-                        "open until 20:30 on Saturdays; closed on Mondays",
-                "http://www.tfam.museum/",
-                "No. 181, Section 3, Zhongshan N Rd, Zhongshan District",
-                "Zhongshan Qu, Zhongshan Bei Lu, San Duan, Yibai BaShi Yi Hao",
-                "The first museum in Taiwan built for contemporary art exhibitions. ",
+                getString(R.string.museum_2_english_name),
+                getString(R.string.museum_2_pinyin_name),
+                getString(R.string.museum_2_admission_fee),
+                getString(R.string.museum_2_operating_hours),
+                getString(R.string.museum_2_website),
+                getString(R.string.museum_2_english_address),
+                getString(R.string.museum_2_pinyin_address),
+                getString(R.string.museum_2_description),
                 R.drawable.taipeifineartsmuseum));
         attractions.add(new Attraction(
-                "National Museum of History",
-                "Lishi Bowuguan",
-                "Regular admission: NT30",
-                "Tuesdays through Sunday open 10:00 to 18:00",
-                "http://www.nmh.gov.tw/",
-                "No. 49, Nanhai Rd, Zhongzheng District",
-                "Zhongzheng qu, Nanhai Lu, Sishi Jiu Hao",
-                "Exhibits Taiwanese historical items.",
+                getString(R.string.museum_3_english_name),
+                getString(R.string.museum_3_pinyin_name),
+                getString(R.string.museum_3_admission_fee),
+                getString(R.string.museum_3_operating_hours),
+                getString(R.string.museum_3_website),
+                getString(R.string.museum_3_english_address),
+                getString(R.string.museum_3_pinyin_address),
+                getString(R.string.museum_3_description),
                 R.drawable.nationalmuseumofhistory));
         attractions.add(new Attraction(
-                "National Taiwan Museum",
-                "Guoli Taiwan Bowuguan",
-                "Regular admission: NT30",
-                "Tuesdays through Sunday open 09:30 to 17:00",
-                "www2.ntm.gov.tw",
-                "No. 2, Xiangyang Rd, Zhongzheng District",
-                "Zhongzheng Qu, Xiangyang Lu, Er Hao",
-                "The collection and research continue to focus on anthropology, earth sciences, " +
-                        "zoology, and botany that are relevant to Taiwan. ",
+                getString(R.string.museum_4_english_name),
+                getString(R.string.museum_4_pinyin_name),
+                getString(R.string.museum_4_admission_fee),
+                getString(R.string.museum_4_operating_hours),
+                getString(R.string.museum_4_website),
+                getString(R.string.museum_4_english_address),
+                getString(R.string.museum_4_pinyin_address),
+                getString(R.string.museum_4_description),
                 R.drawable.nationalmuseumoftaiwan));
         attractions.add(new Attraction(
-                "Museum of Contemporary Art",
-                "Taibei Dangdai Yishuguan",
-                "Regular admission: NT50",
-                "Tuesdays through Sunday open 10:00 to 18:00",
-                "http://www.mocataipei.org.tw/",
-                "No.39, Chang'an W. Rd., Datong District",
-                "Datong Qu, Chang An Xilu, Sanshi Jiu Hao",
-                "A museum displaying contemporary Taiwan art.",
+                getString(R.string.museum_5_english_name),
+                getString(R.string.museum_5_pinyin_name),
+                getString(R.string.museum_5_admission_fee),
+                getString(R.string.museum_5_operating_hours),
+                getString(R.string.museum_5_website),
+                getString(R.string.museum_5_english_address),
+                getString(R.string.museum_5_pinyin_address),
+                getString(R.string.museum_5_description),
                 R.drawable.mocataipei));
         attractions.add(new Attraction(
-                "Shung Ye Museum of Formosan Aborigines",
-                "Shunyi Yaiwan Yuan Zhumin Bowuguan",
-                "Regular admission: NT150",
-                "Tuesdays through Sunday open 09:00 to 17:00",
-                "http://www.museum.org.tw/symm_en/index.htm",
-                "No. 282, Sec.2 Zhishan Rd., Shihlin District",
-                "Shilin Qu, Zhishan Lu, Er Duan, Liang Bai Bashi Er Hao",
-                "A museum dedicated to displaying the cultures and histories of the " +
-                        "Taiwanese aborigines.",
+                getString(R.string.museum_6_english_name),
+                getString(R.string.museum_6_pinyin_name),
+                getString(R.string.museum_6_admission_fee),
+                getString(R.string.museum_6_operating_hours),
+                getString(R.string.museum_6_website),
+                getString(R.string.museum_6_english_address),
+                getString(R.string.museum_6_pinyin_address),
+                getString(R.string.museum_6_description),
                 R.drawable.shungye));
 
         // Create an {@link ArrayAdapter}, whose data source is a activity_attraction of Strings. The adapter
